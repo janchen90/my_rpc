@@ -48,6 +48,8 @@ export class RPC_CLIENT {
                 this._serverList[serverName].send(JSON.stringify(body));
             }
         });
+
+        console.log('hello world');
     }
 
 }
