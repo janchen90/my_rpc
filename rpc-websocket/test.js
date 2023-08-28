@@ -10,3 +10,4 @@ server.on('clientError', (err, socket) => {
 });
 
 server.listen(8000);
+console.log('hello world')
